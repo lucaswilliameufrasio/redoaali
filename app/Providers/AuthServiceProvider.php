@@ -1,0 +1,50 @@
+<?php
+
+namespace App\Providers;
+
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+
+class AuthServiceProvider extends ServiceProvider
+{
+    /**
+     * The policy mappings for the application.
+     *
+     * @var array
+     */
+    protected $policies = [
+        'App\Model' => 'App\Policies\ModelPolicy',
+    ];
+
+    /**
+     * Register any authentication / authorization services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        $this->registerPolicies();
+
+        Gate::define('admin-only', function ($user) {
+            if($user->permission_access == 1)
+            {
+                return true;
+            }
+            return false;
+        });
+        Gate::define('doador-only', function ($user) {
+            if($user->permission_access == 2 && $user->status == 1)
+            {
+                return true;
+            }
+            return false;
+        });
+        Gate::define('beneficiario-only', function ($user) {
+            if($user->permission_access == 3 && $user->status == 1)
+            {
+                return true;
+            }
+            return false;
+        });
+    }
+}

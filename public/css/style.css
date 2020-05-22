@@ -1,0 +1,145 @@
+/* 
+Logo Reference:
+Photo by Shane Aldendorff on Unsplash 
+Photo by Carly Jayne on Unsplash
+Image by Kwkkoq on PngFly - https://www.pngfly.com/png-kzjn1o/
+Photo by ja ma on Unsplash - https://unsplash.com/photos/-gOUx23DNks
+*/
+
+.lista-produtos {
+    width: 680px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.registeroptionone {
+    margin-bottom: 1px;
+}
+
+.registeroptiontwo {
+    margin-top: 1px;
+}
+
+.listaprodutos {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+
+.conteudo-inicio {
+    margin: 20px 20px 0 0;
+    overflow: auto;
+}
+
+.about {
+    margin-right: auto;
+    margin-left: auto;
+    height: 180px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+.about h3 {
+    font-size: 30px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.sobre-page {
+    width: 780px;
+    height: 880px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+
+.sobre-page h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sobre-page p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sobre-page img {
+    opacity: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cadastroprodutotitulo {
+    text-align: center;
+}
+
+.btn-showmapreserva {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.semborda {
+    border: 0;
+    box-shadow: none;
+}
+
+.card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.botaoconcluircadastro {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.editarprodutobtn {
+    margin-left: 20px;
+}
+
+.deletarproduto {
+    margin-left: 2px;
+}
+
+.backgroundimage {
+    height: auto;
+    background-image: url('../img/homeimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.textohomeimage {
+    opacity: 0.9;
+    background-color: rgb(179, 176, 176);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.home {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}

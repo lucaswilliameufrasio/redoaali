@@ -1,0 +1,28 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    width: 100%;
+    height: 400px;
+    padding-top: 10px;
+}
+
+.btn {
+    margin-left: 2px;
+}
+
+.buscar-endereco {
+    margin-bottom: 5px;
+}
+
+.botao-concluir-cadastro {
+    margin: 1px;
+}
+
+.btn-showmap {
+    margin-bottom: 7px;
+}
+
+.mapa-box {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
